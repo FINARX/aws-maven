@@ -4,10 +4,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.platform-team</groupId>
+    <groupId>com.github.mdsina</groupId>
     <artifactId>aws-maven</artifactId>
     <packaging>jar</packaging>
-    <version>6.1.0</version>
+    <version>6.1.1</version>
     <name>Amazon Web Services S3 Maven Wagon Support</name>
     <description>Standard Maven wagon support for s3:// urls</description>
 
@@ -224,7 +224,7 @@
 
     </build>
 
-    <url>https://github.com/platform-team/aws-maven</url>
+    <url>https://github.com/mdsina/aws-maven</url>
 
     <inceptionYear>2018</inceptionYear>
 
@@ -237,30 +237,30 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:platform-team/aws-maven.git</connection>
-        <url>https://github.com/platform-team/aws-maven</url>
+        <connection>scm:git:git@github.com:mdsina/aws-maven.git</connection>
+        <url>https://github.com/mdsina/aws-maven</url>
     </scm>
 
     <organization>
-        <name>Platform Team</name>
-        <url>https://platform.team</url>
+        <name>mdsina</name>
+        <url>https://mdsina.ru</url>
     </organization>
 
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/platform-team/aws-maven</url>
+        <url>https://travis-ci.org/mdsina/aws-maven</url>
     </ciManagement>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/platform-team/aws-maven/issues</url>
+        <url>https://github.com/mdsina/aws-maven/issues</url>
     </issueManagement>
 
     <developers>
         <developer>
-            <id>moleksyuk</id>
-            <name>Mykhailo Oleksiuk</name>
-            <email>mykhailo.oleksiuk@gmail.com</email>
+            <id>mdsina</id>
+            <name>Daniil Mikhaylov</name>
+            <email>github.reply@mdsina.ru</email>
         </developer>
     </developers>
 
