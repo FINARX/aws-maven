@@ -1,10 +1,10 @@
 # AWS Maven Wagon
-[![GitHub version](https://badge.fury.io/gh/platform-team%2Faws-maven.svg)](http://badge.fury.io/gh/platform-team%2Faws-maven)
+[![GitHub version](https://badge.fury.io/gh/mdsina%2Faws-maven.svg)](https://badge.fury.io/gh/mdsina%2Faws-maven)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![Dependency Status](https://www.versioneye.com/user/projects/5a8ab8e30fb24f3a2ef5b4be/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a8ab8e30fb24f3a2ef5b4be)
-[![Build Status](https://travis-ci.org/platform-team/aws-maven.svg?branch=master)](https://travis-ci.org/platform-team/aws-maven)
-[![Coverage Status](https://coveralls.io/repos/github/platform-team/aws-maven/badge.svg?branch=master)](https://coveralls.io/github/platform-team/aws-maven?branch=master)
+[![Dependency Status](https://www.versioneye.com/user/projects/5aeb728d0fb24f54307a4722/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5aeb728d0fb24f54307a4722)
+[![Build Status](https://travis-ci.org/mdsina/aws-maven.svg?branch=master)](https://travis-ci.org/mdsina/aws-maven)
+[![Coverage Status](https://coveralls.io/repos/github/mdsina/aws-maven/badge.svg)](https://coveralls.io/github/mdsina/aws-maven)
 
 
 ## Description
@@ -28,9 +28,9 @@ To publish Maven artifacts to S3 a build extension must be defined in a project'
     <extensions>
       ...
       <extension>
-        <groupId>com.github.platform-team</groupId>
+        <groupId>com.github.mdsina</groupId>
         <artifactId>aws-maven</artifactId>
-        <version>6.0.0</version>
+        <version>6.1.1</version>
       </extension>
       ...
     </extensions>
