@@ -148,7 +148,6 @@ public final class AmazonS3Wagon extends AbstractWagon {
 
     private static String getBucketRegion(AWSCredentialsProvider credentialsProvider, ClientConfiguration clientConfiguration, String bucketName) {
         return AmazonS3Client.builder()
-                .withRegion("us-east-1")
                 .withCredentials(credentialsProvider)
                 .withClientConfiguration(clientConfiguration)
                 .enableForceGlobalBucketAccess()
