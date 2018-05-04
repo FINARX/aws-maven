@@ -210,10 +210,10 @@ aws s3api put-bucket-policy --bucket $BUCKET --policy "$POLICY"
 ```
 
 ## Release Notes
-* `6.0.0`
-    - Updated to the latest versions of aws-sdk and maven-wagon.
-    - Changed order of aws credential resolution strategy.
-    - Added support of all regions defined in aws-sdk.
+* `6.1.1`
+    - Updated to the latest versions of aws-sdk
+    - Add support to Java 9/10
+    - Reduce amount of dependencies
 
 ## License
 
