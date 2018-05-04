@@ -217,7 +217,7 @@ aws s3api put-bucket-policy --bucket $BUCKET --policy "$POLICY"
 
 ## License
 
-Copyright 2018-Present Platform Team.
+Copyright 2018-Present Daniil Mikhaylov.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
